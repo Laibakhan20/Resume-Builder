@@ -1,0 +1,154 @@
+/* Styling form and resume sections */
+
+html, body {
+    /* height: 100%;  */
+    margin: 0; /* Remove default margins */
+    overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    /* margin: 20px; */
+    padding: 0;
+    background-image:url(1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+form {
+    margin: auto;
+    background-color: #f8f4f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(236, 165, 165, 0.5);
+    padding: 20px;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+fieldset {
+    border: 2px solid skyblue;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f8f4f0;
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: rgb(34, 29, 29);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: black;
+
+}
+
+input,textarea {
+    margin-top: 4px;
+    padding: 8px;
+    width: calc(100% - 1px);
+    border: 1px solid skyblue;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: #f1d2c8;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button :hover {
+    color: blue;
+    
+}
+
+#resume-display {
+    background-image: url(1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid skyblue;
+    border-radius: 8px;
+    background-color: rgb(228, 242, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    outline: none; 
+}
+
+#resume-display h2 {
+    color: black;
+}
+
+#resume-section h2{
+    color: black;
+    text-align: center;
+}
+
+#shareable-link-container {
+    text-align: center;
+
+}
+
+#download-pdf {
+    display: block; /* Ensure it's a block element */
+    margin: 0 auto; /* Center the block element horizontally */
+    padding: 10px 20px;
+    width: 40%;
+    background-color: #f1d2c8;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.pdf-btn {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    padding: 20px;
+}
+
+
+.footer {
+    background-color: #e3dbd0; /* Light background color */
+    color: #333; /* Dark text color */
+    text-align: center; /* Center-align text */
+    padding: 10px; /* Padding around text */
+    position: static; /* Fixed at the bottom of the page */
+    bottom: 0; /* Position it at the bottom */
+    width: 100%; /* Full width */
+    /* box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); Optional shadow for better visibility */
+    font-size: 14px; /* Adjust font size as needed */
+}
+
+.footer p {
+    margin: 5px 0; /* Margin around paragraphs */
+}
+
+
+
+
